@@ -1,6 +1,41 @@
 
-i{
-    color:#fff;
-    font-size: 30px;
-    background:#000;
+:root{
+    oneColor:#4b27e9;
+    twoColor:#07c507;
+    thrColor: gold;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 13000px;
+    margin:0 auto;
+    padding:0 90px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:8px
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color:#333;
+    margin:0 4px;
+    font-size: 19px;
+}
+.logo{
+    background:red;
+    width:30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
 }
