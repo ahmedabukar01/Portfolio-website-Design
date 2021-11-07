@@ -1,8 +1,8 @@
 
 :root{
-    oneColor:#4b27e9;
-    twoColor:#07c507;
-    thrColor: gold;
+    --oneColor:#4b27e9;
+    --twoColor:#a4f835;
+    --thrColor: rgb(205, 250, 175);
 }
 *{
     margin:0;
@@ -18,7 +18,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:8px
+    margin-top:8px;
+    background:var(--oneColor);
+    padding:10px;
 }
 .navbar ul{
     list-style-type: none;
@@ -31,11 +33,22 @@
     color:#333;
     margin:0 4px;
     font-size: 19px;
+    color:#fff;
 }
 .logo{
-    background:red;
+    background:var(--twoColor);
+    color:var(--oneColor);
     width:30px;
     height: 30px;
     text-align: center;
     border-radius: 50%;
+}
+.navbar i{
+    background:var(--oneColor);
+    color:var(--thrColor);
+}
+
+/* showcase */
+img{
+    width:300px;
 }
