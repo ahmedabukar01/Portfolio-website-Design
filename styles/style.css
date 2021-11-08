@@ -55,6 +55,7 @@
 img{
     width:300px;
 }
-.showcase{
-    
+.showcase-content{
+    display:flex;
+    justify-content: space-between;
 }
