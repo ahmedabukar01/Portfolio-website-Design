@@ -17,7 +17,9 @@
 .home{
     background: linear-gradient(120deg,#03039b, var(--oneColor));
 }
-
+.navbar{
+    height: 60px;
+}
 .navbar-content{
     display: flex;
     justify-content: space-between;
@@ -55,7 +57,21 @@
 img{
     width:300px;
 }
+.showcase{
+    height: calc(100vh - 90px);
+    position: relative;
+}
 .showcase-content{
     display:flex;
     justify-content: space-between;
+}
+.showcase::before{
+    position:absolute;
+    content: '';
+    bottom:0;
+    left:0;
+    width:100%;
+    background:#fff;
+    height: 200px;
+    clip-path:polygon(100% 60%, 0 100%, 100% 100%);
 }
