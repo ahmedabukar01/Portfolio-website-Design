@@ -1,8 +1,8 @@
 
 :root{
-    --oneColor:#4b27e9;
-    --twoColor:#a4f835;
-    --thrColor: rgb(205, 250, 175);
+    --oneColor:#1a1aff;
+    --twoColor: #1aff1a;
+    --thrColor: #00ffcc;
 }
 *{
     margin:0;
@@ -14,12 +14,15 @@
     margin:0 auto;
     padding:0 90px;
 }
-.navbar{
+.home{
+    background: linear-gradient(120deg,#03039b, var(--oneColor));
+}
+
+.navbar-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top:8px;
-    background:var(--oneColor);
     padding:10px;
 }
 .navbar ul{
@@ -51,4 +54,7 @@
 /* showcase */
 img{
     width:300px;
+}
+.showcase{
+    
 }
